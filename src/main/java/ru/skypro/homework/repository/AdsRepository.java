@@ -12,5 +12,5 @@ import javax.persistence.Cacheable;
 @Repository
 @Cacheable
 public interface AdsRepository extends JpaRepository<Ads, Integer> {
-
+    
 }
